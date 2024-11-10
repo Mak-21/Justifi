@@ -1,11 +1,10 @@
-import { Outlet } from "react-router-dom";
 import NavBar from "../components/NavBar";
 
-function AppLayout() {
+function AppLayout({ children }) {
   return (
     <>
       <NavBar />
-      <Outlet />
+      {children}
     </>
   );
 }
