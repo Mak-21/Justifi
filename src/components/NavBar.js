@@ -12,9 +12,12 @@ function NavBar() {
 
       {/* Conditionally render the Ask Juris button if not on the /ask-juris page */}
       {location.pathname !== "/ask-juris" && (
-        <NavLink className={styles.btn} to="/ask-juris">
+        <a
+          className={styles.btn}
+          href="https://chatgpt.com/g/g-BFmRoEdGC-justifi"
+        >
           Ask Juris
-        </NavLink>
+        </a>
       )}
     </nav>
   );

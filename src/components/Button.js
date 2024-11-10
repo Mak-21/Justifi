@@ -1,15 +1,14 @@
-import { NavLink } from "react-router-dom";
 import styles from "./Button.module.css";
 function Button({ size = "medium" }) {
   return (
-    <NavLink
+    <a
       className={
         size === "medium" ? styles.btn : `${styles.btn} ${styles.btnLarge}`
       }
-      to="/ask-juris"
+      href="https://chatgpt.com/g/g-BFmRoEdGC-justifi"
     >
       Ask Juris
-    </NavLink>
+    </a>
   );
 }
 
