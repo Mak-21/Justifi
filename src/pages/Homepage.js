@@ -5,7 +5,7 @@ function Homepage() {
   return (
     <div>
       <Header />
-      <About />
+      {/* <About /> */}
       {/* <Features/> */}
       {/* <Footer/> */}
     </div>
